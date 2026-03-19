@@ -31,7 +31,9 @@ const Hero = () => {
                 <span className='hero__container-title'>Brain Rot</span> <span className='hero__container-game'>Runner</span> . Hãy thư giãn để sẵn sàng chơi 
             </h2>
             <p className='hero-paragraph'>Hãy đắm mình vào cuộc chạy không bao giờ dừng</p>
+            <a href="#game">
             <button className='hero-btn'><img src={PlayIcon} alt="Play Icon" className='btn-icon' /> Chơi Ngay</button>
+            </a>
         </section>
         <section className='hero-advertisement'>
             <img className='hero-advertisement-cha1' src={Character_1} alt="Tralalero-Tralala" />
